@@ -28,9 +28,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
+            overflow: auto;
         }
+
         .container {
             width: 80%;
             max-width: 1200px;
